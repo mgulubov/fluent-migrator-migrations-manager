@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+
+  <TestRunParameters>
+    <Parameter name="env" value="Local" />
+    <Parameter name="connectionString" value="Server=127.0.0.1\MSSQLSERVER;Database=FluentMigratorTestDb;Trusted_Connection=True" />
+  </TestRunParameters>
+
+</RunSettings>
