@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Miroslav Galabov</Authors>
+    <Description>A simple abstraction for FluentMigrator. It exposes a simple interface for migrating to a specific DB version.</Description>
+    <RepositoryUrl>https://github.com/mgulubov/fluent-migrator-migrations-manager</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/mgulubov/fluent-migrator-migrations-manager</PackageProjectUrl>
+    <PackageTags>FluentMigrator Database Migrations</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Copyright>Copyright (c) Miroslav Galabov 2021.</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
