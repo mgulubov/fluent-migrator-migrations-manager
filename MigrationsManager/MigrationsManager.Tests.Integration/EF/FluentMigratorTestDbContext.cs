@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.EF
+﻿namespace MigrationsManager.Tests.Integration.EF
 {
     using Microsoft.EntityFrameworkCore;
 

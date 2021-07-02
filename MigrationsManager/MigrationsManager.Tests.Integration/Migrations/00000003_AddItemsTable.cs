@@ -1,5 +1,7 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.Migrations
+﻿namespace MigrationsManager.Tests.Integration.Migrations
 {
+    using FluentMigrator;
+
     [Migration(3, "Add Items table along with relation to Purchases table")]
     public class AddItemsTable : Migration
     {

@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager
+﻿namespace MigrationsManager
 {
     using System;
 

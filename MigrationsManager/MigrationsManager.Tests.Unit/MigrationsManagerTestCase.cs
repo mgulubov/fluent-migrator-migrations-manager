@@ -1,11 +1,10 @@
-﻿namespace FluentMigrator.MigrationsManager.UnitTests
+﻿namespace MigrationsManager.Tests.Unit
 {
     using System;
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    using FluentMigrator.MigrationsManager;
-    using FluentMigrator.MigrationsManager.Interfaces;
+    using Interfaces;
 
     [TestClass]
     public class MigrationsManagerTestCase : AbstractMigrationsManagerTestCase

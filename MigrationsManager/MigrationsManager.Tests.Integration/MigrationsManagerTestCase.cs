@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests
+﻿namespace MigrationsManager.Tests.Integration
 {
     using System;
     using System.Linq;
@@ -11,11 +11,8 @@
     using FluentMigrator.Runner.VersionTableInfo;
 
     using EF;
-    using EF.Models;
-    using Migrations;
 
-    using FluentMigrator.MigrationsManager;
-    using FluentMigrator.MigrationsManager.Interfaces;
+    using Interfaces;
 
     [TestClass]
     public class MigrationsManagerTestCase

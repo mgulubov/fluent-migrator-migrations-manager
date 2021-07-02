@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FluentMigrator.MigrationsManager\FluentMigrator.MigrationsManager.csproj" />
+    <ProjectReference Include="..\MigrationsManager\MigrationsManager.csproj" />
   </ItemGroup>
 
 </Project>

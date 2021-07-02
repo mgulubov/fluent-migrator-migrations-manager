@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.Interfaces
+﻿namespace MigrationsManager.Interfaces
 {
     using System;
 

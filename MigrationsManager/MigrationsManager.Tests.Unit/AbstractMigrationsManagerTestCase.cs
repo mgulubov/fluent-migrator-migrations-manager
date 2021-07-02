@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.UnitTests
+﻿namespace MigrationsManager.Tests.Unit
 {
     using System;
 
@@ -8,7 +8,7 @@
     using FluentMigrator.Runner;
     using Moq;
 
-    using FluentMigrator.MigrationsManager.Interfaces;
+    using Interfaces;
 
     [TestClass]
     public abstract class AbstractMigrationsManagerTestCase

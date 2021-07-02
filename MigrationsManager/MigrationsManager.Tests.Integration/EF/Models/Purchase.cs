@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.EF.Models
+﻿namespace MigrationsManager.Tests.Integration.EF.Models
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;

@@ -1,4 +1,4 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.Migrations
+﻿namespace MigrationsManager.Tests.Integration.Migrations
 {
     using FluentMigrator.Runner.VersionTableInfo;
 

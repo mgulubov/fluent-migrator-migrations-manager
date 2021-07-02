@@ -1,5 +1,7 @@
-﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.Migrations
+﻿namespace MigrationsManager.Tests.Integration.Migrations
 {
+    using FluentMigrator;
+
     [Migration(1, "Create a test Users table")]
     public class CreateUserTable : Migration
     {
