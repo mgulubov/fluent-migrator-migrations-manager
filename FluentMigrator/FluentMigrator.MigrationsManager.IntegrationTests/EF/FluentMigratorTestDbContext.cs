@@ -1,10 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace FluentMigrator.MigrationsManager.IntegrationTests.EF
+﻿namespace FluentMigrator.MigrationsManager.IntegrationTests.EF
 {
-    class FluentMigratorTestDbContext
+    using Microsoft.EntityFrameworkCore;
+
+    using Models;
+
+    public class FluentMigratorTestDbContext : DbContext
     {
+        public FluentMigratorTestDbContext(DbContextOptions<FluentMigratorTestDbContext> options)
+            : base(options)
+        {
+        }
+
+        public virtual DbSet<Item> Items { get; set; }
+
+        public virtual DbSet<Purchase> Purchases { get; set; }
+
+        public virtual DbSet<User> Users { get; set; }
+
+        public virtual DbSet<VersionInfo> Versions { get; set; }
     }
 }

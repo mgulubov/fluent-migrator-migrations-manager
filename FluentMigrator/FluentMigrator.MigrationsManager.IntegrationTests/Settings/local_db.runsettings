@@ -3,7 +3,7 @@
 
   <TestRunParameters>
     <Parameter name="env" value="Local" />
-    <Parameter name="connectionString" value="Server=127.0.0.1\MSSQLSERVER;Database=FluentMigratorTestDb;Trusted_Connection=True" />
+    <Parameter name="connectionString" value="Server=localhost;Database=FluentMigratorTestDb;Trusted_Connection=True;" />
   </TestRunParameters>
 
 </RunSettings>

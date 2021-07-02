@@ -13,7 +13,7 @@
 
         public override void Down()
         {
-            Delete.ForeignKey("fk_item_purchaseid_purchase_id");
+            Delete.ForeignKey("fk_item_purchaseid_purchase_id").OnTable("Item");
             Delete.Table("Item");
         }
     }
